@@ -1,0 +1,251 @@
+[2019-11-12 15:05:56,152] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZTRkODg1ZjAtNTkzNC00ZmFjLTgyNzgtNmY2OGIzYTk3ODMz; Path=/; SameSite=Lax
+[2019-11-12 15:05:56,155] - Log.py[line:37] - fuc:__console- INFO: sheetNames:DomainName
+[2019-11-12 15:05:56,158] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 15:05:56,161] - Log.py[line:37] - fuc:__console- INFO: 运行接口http://soft.tpson.com.cn:60042/center/home_page/camera_list
+[2019-11-12 15:05:56,493] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例运行结果：{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}
+[2019-11-12 15:05:56,498] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例运行成功
+[2019-11-12 15:05:56,502] - Log.py[line:37] - fuc:__console- INFO: 预期结果:"code":0,"message":null,
+[2019-11-12 15:05:56,507] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 15:05:56,511] - Log.py[line:37] - fuc:__console- INFO: 运行接口http://soft.tpson.com.cn:60042/center/home_page/camera_list
+[2019-11-12 15:05:56,846] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例1运行结果：{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}
+[2019-11-12 15:05:56,850] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例1运行成功
+[2019-11-12 15:05:56,854] - Log.py[line:37] - fuc:__console- INFO: 预期结果:"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:
+[2019-11-12 15:05:56,858] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 15:05:56,862] - Log.py[line:37] - fuc:__console- INFO: 运行接口http://soft.tpson.com.cn:60042/center/home_page/camera_list
+[2019-11-12 15:05:57,197] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例3运行结果：{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}
+[2019-11-12 15:05:57,199] - Log.py[line:43] - fuc:__console- ERROR: 用例测试用例3运行失败
+[2019-11-12 15:05:57,202] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 15:05:57,204] - Log.py[line:37] - fuc:__console- INFO: 运行接口http://soft.tpson.com.cn:60042/center/home_page/camera_list
+[2019-11-12 15:05:57,551] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例4运行结果：{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}
+[2019-11-12 15:05:57,555] - Log.py[line:43] - fuc:__console- ERROR: 用例测试用例4运行失败
+[2019-11-12 15:05:57,558] - Log.py[line:37] - fuc:__console- INFO: 获取接口用例结果集:{'pass_case_count': 2, 'fail_case_count': 2}
+[2019-11-12 15:05:57,561] - Log.py[line:37] - fuc:__console- INFO: 获取接口用例结果集:{'测试用例': ['get', 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', '', '"code":0,"message":null,', '{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}', 'pass'], '测试用例1': ['Get', 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', '', '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:', '{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}', 'pass'], '测试用例3': ['get', 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', '', '测试5', '{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}', 'fail'], '测试用例4': ['Get', 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', '', '测试8', '{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}', 'fail']}
+[2019-11-12 15:53:39,686] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 15:53:39,688] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 15:53:39,690] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 15:53:39,692] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 15:53:39,693] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:02:09,705] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:02:09,706] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:02:09,707] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:02:09,709] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:02:09,711] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:03:10,836] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:03:10,837] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:03:10,838] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:03:10,840] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:03:10,841] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:03:38,203] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:03:38,205] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:03:38,206] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:03:38,207] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:03:38,209] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:04:44,213] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:04:44,215] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:04:44,216] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:04:44,217] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:04:44,218] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:05:51,607] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:05:51,609] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:05:51,610] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:05:51,611] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:05:51,613] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:22:10,577] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:22:10,579] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:22:10,580] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:22:10,581] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:22:10,582] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:22:11,046] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=M2FjMTAyOTMtZDE4YS00OGEyLWI1OGUtYTZkZTUxMWZkOTMz; Path=/; SameSite=Lax
+[2019-11-12 16:22:11,755] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NmIxMjE0MDgtOTE2Ny00YTcxLWI5MDMtNTY0NTM3YWJmYTE2; Path=/; SameSite=Lax
+[2019-11-12 16:22:12,424] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YjQ2OGNlMzgtYzM3MS00OWZlLWIwNzAtNjQxMmM1MTgwNjll; Path=/; SameSite=Lax
+[2019-11-12 16:22:13,139] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MDY4YjRiNjMtOTBmYS00YmNmLTljMTktNzM4NzBjNDFjMzc5; Path=/; SameSite=Lax
+[2019-11-12 16:23:13,721] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:23:13,722] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:23:13,724] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:23:13,726] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:23:13,727] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': ''}]
+[2019-11-12 16:23:14,123] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZTJjMTBiMjQtOWMwNS00NjgzLThkODktNTUyZmRjMTE3ZmM3; Path=/; SameSite=Lax
+[2019-11-12 16:23:16,231] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZjE4OWE4ZDktZTU1My00YmU4LTkyYTEtYjQwOWQ0YTJmYmU1; Path=/; SameSite=Lax
+[2019-11-12 16:23:16,914] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MGFjOThhNWQtMWI5ZS00N2M5LThiMzAtMTZhYjFlZmRhNGQ4; Path=/; SameSite=Lax
+[2019-11-12 16:23:17,626] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OWUyZTcyNmYtN2M2Mi00MjE3LWIxMjYtZTU2N2M1ZGE5N2Mx; Path=/; SameSite=Lax
+[2019-11-12 16:25:10,906] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:25:10,908] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:25:10,909] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:25:10,910] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:25:10,911] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 16:25:11,312] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Yjg1NDQyZTctMmJkZS00OTRiLWI4M2QtM2Y4MmRiMWYyN2Ex; Path=/; SameSite=Lax
+[2019-11-12 16:25:12,005] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZGRmZDJhNGEtNjIzMC00YjdlLTkxMDktYWI5YjVjYzhiNzY2; Path=/; SameSite=Lax
+[2019-11-12 16:25:12,725] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NGI0ZWRmZTEtMWQ2OS00ZDA0LWJlMzgtYTgyODFmYTQxZTE5; Path=/; SameSite=Lax
+[2019-11-12 16:25:13,404] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MDliNmUyZDMtOTE2MS00YmY2LTkwNjktYjNjNjBmNjc4Y2M2; Path=/; SameSite=Lax
+[2019-11-12 16:38:55,430] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:38:55,431] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:38:55,433] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:38:55,434] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:38:55,435] - Log.py[line:37] - fuc:__console- INFO: [{'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 16:38:55,835] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YWYzMWQwNzktZDk5ZC00Y2RkLWE0MDktZjIxMjkzM2QwM2U5; Path=/; SameSite=Lax
+[2019-11-12 16:38:56,572] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Y2I1YjEyNTItNTZhMS00MTY1LTgyNDYtMmU3Y2VkMTcyNGYx; Path=/; SameSite=Lax
+[2019-11-12 16:38:57,303] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NDk3N2ViZjEtODIwMy00YjRkLWFmZmMtMWEyY2ViMTA2MDBm; Path=/; SameSite=Lax
+[2019-11-12 16:38:57,988] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZmMyMjAxNzAtOGZmOS00YzM5LWFiNmQtZDRhMzhjODFmYmYx; Path=/; SameSite=Lax
+[2019-11-12 16:51:30,752] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:51:30,753] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:51:30,754] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:51:30,755] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:51:30,756] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 1, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 2, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 1, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 2, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 16:53:23,470] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 16:53:23,471] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 16:53:23,473] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 16:53:23,474] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 16:53:23,475] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 1, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 2, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 3, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 4, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 17:08:52,518] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 17:08:52,519] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 17:08:52,520] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 17:08:52,522] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 17:08:52,523] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 1, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 2, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 3, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 4, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 17:08:53,175] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NGI0NWUxMzYtM2E3OC00ZmUwLWFlOTItZDQ2YzEzM2ZlZmM3; Path=/; SameSite=Lax
+[2019-11-12 17:08:54,012] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YjYwNzU1YmQtNTE4Ni00YzlmLWFiZGItYjQyZWE0MWQ2YTlk; Path=/; SameSite=Lax
+[2019-11-12 17:08:54,794] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=N2ViZTVhYTItNjNmZS00ZDcyLThlMzMtMDRmYjkxMDdlNjI3; Path=/; SameSite=Lax
+[2019-11-12 17:08:55,512] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MmVhMzMxMzItNjA4Yi00ZWMzLWFhYWQtYTc1OTYzZTk1YTdm; Path=/; SameSite=Lax
+[2019-11-12 17:11:13,490] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 17:11:13,491] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 17:11:13,493] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 17:11:13,494] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 17:11:13,495] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 1, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 2, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 3, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 4, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 17:11:13,926] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Y2U2MDdmNDQtNzE3ZC00YjVmLWI0ZmItMTU5ODhlYzY3MTMy; Path=/; SameSite=Lax
+[2019-11-12 17:11:14,775] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZThlMzUxNDEtN2Q2NC00NzIwLWIxNjYtMjdmYzY4YWQ5ZGY2; Path=/; SameSite=Lax
+[2019-11-12 17:11:15,582] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YzcwZThmOGMtYTM0MC00ODY5LTk5ZWYtYjA4MjYxYzMzZGE5; Path=/; SameSite=Lax
+[2019-11-12 17:11:16,413] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NmNmMGEzMWMtYjliZC00ZWJkLWJiODYtZjM1Y2E0MGE3MTEy; Path=/; SameSite=Lax
+[2019-11-12 17:16:37,072] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 17:16:37,074] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 17:16:37,075] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 17:16:37,076] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 17:16:37,077] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 17:16:37,495] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OGIxZmMxNzQtYWNhOS00YmRlLWJjZDYtMWQ5ZWY1YWFmMjhm; Path=/; SameSite=Lax
+[2019-11-12 17:16:38,532] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NjJhODZjYjktMTIzYS00ZmYyLWFmYTUtNzQyZjQ0ZDIwYWFj; Path=/; SameSite=Lax
+[2019-11-12 17:16:39,591] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YzI1YmNhN2EtMjhmZC00ZDE1LWFmNzYtNDUwNzM0NGRlNWM3; Path=/; SameSite=Lax
+[2019-11-12 17:16:40,751] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MDU2MzU0NDEtMmEzNi00MGMxLWI1YTMtYTBjNTExZmI1ZjI3; Path=/; SameSite=Lax
+[2019-11-12 17:23:28,538] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 17:23:28,539] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 17:23:28,541] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 17:23:28,542] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 17:23:28,543] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 17:23:28,886] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ODllZjEwODAtYjdlZC00MGJlLWIzMzktMWIzNDFjZDM0ODFk; Path=/; SameSite=Lax
+[2019-11-12 17:23:29,798] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OWRjMTQ5ZGItZmIwNS00ZTlhLTlmNWYtY2Y3NThhYThhMmFl; Path=/; SameSite=Lax
+[2019-11-12 17:23:30,681] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MWIzNzZjZWYtNTBlZS00NTAzLThkMmQtMjcyNzBmMjUzMGRh; Path=/; SameSite=Lax
+[2019-11-12 17:23:31,570] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NzE2N2YwMWMtYmZjYS00MTcwLTk0NTktMDc0Yzk4MTM1YTEz; Path=/; SameSite=Lax
+[2019-11-12 19:19:55,108] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:19:55,125] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:19:55,128] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:19:55,131] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:19:55,134] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:19:55,628] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MzE2M2U0YWMtYWZlZi00NjVhLWE3ZTYtM2I1NmNiNGZkNjYy; Path=/; SameSite=Lax
+[2019-11-12 19:19:56,331] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YmM3MmI3YWEtZTE4My00NGRkLWFiYWMtMzU5NWRlNzI1OGMy; Path=/; SameSite=Lax
+[2019-11-12 19:19:57,100] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YmI3YTNhNzItOWUxZi00ZWExLTg5Y2YtZjRlZmM2OTMxNzkz; Path=/; SameSite=Lax
+[2019-11-12 19:19:57,850] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MDQxMjNkYTMtNWNjNS00MWQzLTkwYjItM2YzZmQwNzZkNGE4; Path=/; SameSite=Lax
+[2019-11-12 19:23:02,255] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:23:02,257] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:23:02,258] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:23:02,259] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:23:02,261] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:23:02,661] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZDc1MjA1ZjUtMDNkZi00MGIwLWI1NDctMGY0YWFmZjY3ZDQx; Path=/; SameSite=Lax
+[2019-11-12 19:23:03,376] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NzVkNGZiMjMtMGEzMy00NTI4LTk2MGEtMmYwNWEyNjIxYTBm; Path=/; SameSite=Lax
+[2019-11-12 19:23:04,143] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=N2VhMDdhZmMtOTc3YS00YWZjLWEzOTctNWQ2MjEwNTUzNTQz; Path=/; SameSite=Lax
+[2019-11-12 19:23:04,903] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZjkxZTM1OGUtN2IwYi00YTk5LTkxNTEtOTEyZjJmNmRkNDNm; Path=/; SameSite=Lax
+[2019-11-12 19:27:50,341] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:27:50,343] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:27:50,345] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:27:50,346] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:27:50,347] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:27:50,763] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NDRkYmJkMTktZDg5NC00MzZlLTgxZWQtNjE1NWZmZWQ2ZmJi; Path=/; SameSite=Lax
+[2019-11-12 19:27:51,664] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NTM4MjU3MDctNDgyMC00ZmExLTg3YzctMThiNjg4ZDVmM2M0; Path=/; SameSite=Lax
+[2019-11-12 19:27:52,524] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MTViOWFmODctNzEzNy00NzkyLWJmZjktZGNiN2UwZGUzNzFj; Path=/; SameSite=Lax
+[2019-11-12 19:27:53,343] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NGRhNDhlZjUtMTBmNS00ODU3LTgxNWYtMjAxZjQzOGI2ODA4; Path=/; SameSite=Lax
+[2019-11-12 19:28:49,264] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:28:49,266] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:28:49,267] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:28:49,269] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:28:49,270] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:28:49,693] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZmU4YmJkYjEtYTRlYy00YzMyLWEzNmEtODE1YTkyMGIzNzAx; Path=/; SameSite=Lax
+[2019-11-12 19:28:50,478] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZmFlOTdmNjEtYTY1Ni00NjRiLThmY2ItN2RmMGQ5MDY4YWNm; Path=/; SameSite=Lax
+[2019-11-12 19:28:51,279] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Y2JkMDM0ZjgtMzc2Zi00Y2Y3LTgwZWYtYzZhYTZlY2MwMWVi; Path=/; SameSite=Lax
+[2019-11-12 19:28:52,121] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZmMzMTQ5MTgtYTJkNS00NjdmLWE2YWEtNTc3MzVjZmVjMzc2; Path=/; SameSite=Lax
+[2019-11-12 19:35:57,741] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:35:57,743] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:35:57,744] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:35:57,745] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:35:57,746] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:35:58,137] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZWUyMTUxODktMjU1My00MDM5LWEzMTYtYjI0OGIxZTIyNDI4; Path=/; SameSite=Lax
+[2019-11-12 19:35:58,870] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OWFhNWNlMWEtNjIwYi00M2U3LTg1MTItYjgzZTAwZjM3ZGUw; Path=/; SameSite=Lax
+[2019-11-12 19:35:59,584] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NzdkZTA5NDktOTM1NS00YzgzLTg5ODItYzUyZTk1YjU0Zjkw; Path=/; SameSite=Lax
+[2019-11-12 19:36:00,312] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YmYxZTlhOGEtM2ZkMC00Mjg2LThiNGYtNzY3ZGU3N2YwM2Iy; Path=/; SameSite=Lax
+[2019-11-12 19:41:36,441] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:41:36,442] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:41:36,443] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:41:36,444] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:41:36,445] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:41:36,851] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MThlNjE5YWUtZmQwMy00NGJjLTg5ZDktYmJkNzQ4MTdkYThi; Path=/; SameSite=Lax
+[2019-11-12 19:41:37,606] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YmVkMDExMjAtY2NiMS00MDAwLTgxN2QtMzZhZTE3MGVmMmNk; Path=/; SameSite=Lax
+[2019-11-12 19:41:38,332] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OGQxNzYxNzEtNGE5My00NTRiLTgxMGUtNDhkYTJmNjA2MTk0; Path=/; SameSite=Lax
+[2019-11-12 19:41:39,022] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MDNkNTJlMjAtNjExOC00MmU4LThlNzktMjExZmM3MDIxNTQx; Path=/; SameSite=Lax
+[2019-11-12 19:42:15,049] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:42:15,051] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:42:15,053] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:42:15,054] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:42:15,056] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:42:15,400] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NjI3NmVjZDQtYmMwYS00MWY1LThjYmYtZWQ1MWNjYTA3OGNk; Path=/; SameSite=Lax
+[2019-11-12 19:42:16,124] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YzkzNzI1YjUtNTk2YS00ZjAyLWIwMzgtMTVlNDg1YzBhYjNk; Path=/; SameSite=Lax
+[2019-11-12 19:42:16,863] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YTRhYWMxYTAtYmY4Mi00ZDZlLWEzZjQtYWY3ZWEyMzE1Zjdm; Path=/; SameSite=Lax
+[2019-11-12 19:42:17,583] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NThhNTY4NGEtNjg3ZC00OWM2LTgxMTQtYjFmNThiMzM0ODAz; Path=/; SameSite=Lax
+[2019-11-12 19:44:34,213] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:44:34,215] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:44:34,216] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:44:34,217] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:44:34,219] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:44:34,628] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MTM0OTk3YTUtYmE3MS00MTUwLWEzNDktZGY1Mzk3ZTRjNmY4; Path=/; SameSite=Lax
+[2019-11-12 19:44:35,313] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NGE3NzNlYzctZDc1Yy00ODUxLTg4ZmEtODk3OTk5MzMwNzkz; Path=/; SameSite=Lax
+[2019-11-12 19:44:35,983] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NzkyMzQ0OTMtMzgwOS00MzgzLWFhNzctMjgyOWU2NzQwZjZj; Path=/; SameSite=Lax
+[2019-11-12 19:44:36,631] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Nzg3NDNhNGItMDBkYy00ZDgyLTg3ODEtNWUzNDVjMzAyOTg3; Path=/; SameSite=Lax
+[2019-11-12 19:46:38,824] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:46:38,825] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:46:38,827] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:46:38,828] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:46:38,829] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:46:39,225] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Nzg2MGMyYzUtMWM4OS00M2I4LThlN2ItNmQ5ODAwOWEwNzhh; Path=/; SameSite=Lax
+[2019-11-12 19:46:39,965] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NDU0NjU4ZGEtMjA0MS00ZGEwLWFjYjUtOTYxNTc1NzZhNmU1; Path=/; SameSite=Lax
+[2019-11-12 19:46:40,711] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=Zjk1NWE3ZjItOTlhZC00NmY4LTkzOTYtYjIzOTEzMTVlYjM1; Path=/; SameSite=Lax
+[2019-11-12 19:46:41,414] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OTJiMGExYzEtMzAyOS00YmJjLTliNjctZDBhZGEzOTA0NmNh; Path=/; SameSite=Lax
+[2019-11-12 19:48:03,136] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:48:03,138] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:48:03,139] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:48:03,141] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:48:03,142] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:48:03,559] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MDM2MDMwYzYtMzc4ZS00MDdhLWI3NjUtZjBmMGJhYmNmMWMw; Path=/; SameSite=Lax
+[2019-11-12 19:48:04,301] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MTJhMWEyMzgtZWEzNy00OGY5LWIzMjMtZGRmYzI1NTVmOGI2; Path=/; SameSite=Lax
+[2019-11-12 19:48:05,046] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NzViN2MzNWYtNGY2Ni00NzgwLThkOGUtYjdhNGM0YTY4ZjNi; Path=/; SameSite=Lax
+[2019-11-12 19:48:05,765] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=MGMwOTJiYzktZmFhYy00NWRjLTg2NjQtOTg2ODIyY2VjMDRm; Path=/; SameSite=Lax
+[2019-11-12 19:51:41,418] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:51:41,419] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:51:41,420] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:51:41,421] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:51:41,423] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:51:41,826] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=YWU0NDhkYjQtYzUzOC00NWQxLWFiODgtNTAwZWI5YTlkZTlh; Path=/; SameSite=Lax
+[2019-11-12 19:51:42,693] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZmY5M2ZmNmYtNjI3Yy00ZmI2LWIyZjgtMjg0ZjY1OGVlNjJi; Path=/; SameSite=Lax
+[2019-11-12 19:51:43,533] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=N2ZhMjE2ZGYtMjNlMi00ZDIzLThkOWMtYTgwODNiZWJhODJi; Path=/; SameSite=Lax
+[2019-11-12 19:51:44,368] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZjM1NjNmN2MtYThlYi00Nzg5LWFiMzUtYzM1Yzg1ZDBhODVm; Path=/; SameSite=Lax
+[2019-11-12 19:58:41,173] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 19:58:41,175] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 19:58:41,176] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 19:58:41,177] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 19:58:41,178] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 19:58:41,525] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OWFkMTlkNzktMWE5YS00MWNiLTkxOGUtMmNmZDRjODE5ZWRk; Path=/; SameSite=Lax
+[2019-11-12 19:58:42,372] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NzdhMTEzYTgtMzE0MS00ZTdjLWIzZDUtMGE2ZGY5ZmIxMjYz; Path=/; SameSite=Lax
+[2019-11-12 19:58:43,264] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZWQ5ZDM0NDEtNDQyOC00MWE2LWI0ZGItNjMzNGRhOTgwYTA2; Path=/; SameSite=Lax
+[2019-11-12 19:58:44,158] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=NmZmMDc0YmUtMDM1YS00NDQyLTgzYWUtYmExNDY0Y2VjN2Fh; Path=/; SameSite=Lax
+[2019-11-12 20:00:23,057] - Log.py[line:37] - fuc:__console- INFO: 测试用例：该用例参数为空
+[2019-11-12 20:00:23,058] - Log.py[line:37] - fuc:__console- INFO: 测试用例1：该用例参数为空
+[2019-11-12 20:00:23,059] - Log.py[line:37] - fuc:__console- INFO: 测试用例3：该用例参数为空
+[2019-11-12 20:00:23,060] - Log.py[line:37] - fuc:__console- INFO: 测试用例4：该用例参数为空
+[2019-11-12 20:00:23,062] - Log.py[line:37] - fuc:__console- INFO: [{'rowNum': 2, 'testName': '测试用例', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"code":0,"message":null,'}, {'rowNum': 3, 'testName': '测试用例1', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http:'}, {'rowNum': 4, 'testName': '测试用例3', 'method': 'get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试5'}, {'rowNum': 5, 'testName': '测试用例4', 'method': 'Get', 'url': 'http://soft.tpson.com.cn:60042/center/home_page/camera_list', 'params': '', 'hopeResult': '测试8'}]
+[2019-11-12 20:00:23,432] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZWNiNTFhMzQtYTJjOC00ODU0LWI0NTUtMDI2ZTAwN2YyZmUx; Path=/; SameSite=Lax
+[2019-11-12 20:00:24,319] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=OTQ5MDIwOGQtMmRmMC00ZmQ5LThjOTYtYmFiMGMwZjliMDU4; Path=/; SameSite=Lax
+[2019-11-12 20:00:25,289] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZmJlNjRkN2MtMWFkMC00ODhlLWEwMDMtMDU5ZTlhZjFiY2E1; Path=/; SameSite=Lax
+[2019-11-12 20:00:26,218] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZTg3YjJhNDItZmMzOS00NjQ5LTk5MzYtZWZmZmI5YjQ5MzVi; Path=/; SameSite=Lax

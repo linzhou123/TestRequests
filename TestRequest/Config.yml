@@ -1,0 +1,4 @@
+TestDomainName: DomainName
+TestCasePath: TestCase\Test.xlsx
+CaseResultPath: CaseResult
+inInterfaceSheetName: Request

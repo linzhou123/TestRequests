@@ -1,0 +1,8 @@
+[2019-11-11 19:38:17,674] - Log.py[line:37] - fuc:__console- INFO: 得到cookie：SESSION=ZjlhMjljOTctMTk2Mi00NGM4LThiYWUtNDBiOTViZmM1MWVh; Path=/; SameSite=Lax
+[2019-11-11 19:38:17,678] - Log.py[line:37] - fuc:__console- INFO: 运行接口http://soft.tpson.com.cn:60042/center/home_page/camera_list
+[2019-11-11 19:38:18,024] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例运行结果：{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}
+[2019-11-11 19:38:18,029] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例运行成功
+[2019-11-11 19:38:18,033] - Log.py[line:37] - fuc:__console- INFO: 运行接口http://soft.tpson.com.cn:60042/center/home_page/camera_list
+[2019-11-11 19:38:18,381] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例1运行结果：{"code":0,"message":null,"data":[{"powerStationName":"电站1","id":1,"name":"ttt","playType":1,"url":"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8","username":"ttt","password":"ttt","ip":"ttt","port":999,"channelNumber":"ttt"},{"powerStationName":"电站1","id":3,"name":"ces","playType":2,"url":null,"username":"","password":"","ip":"","port":null,"channelNumber":""}],"success":true,"resultCode":"SUCCESS"}
+[2019-11-11 19:38:18,385] - Log.py[line:37] - fuc:__console- INFO: 用例测试用例1运行成功
+[2019-11-11 19:38:18,389] - Log.py[line:37] - fuc:__console- INFO: 获取接口用例结果集{'pass_case_count': 2, 'fail_case_count': 0}
